@@ -1,0 +1,13 @@
+{
+  "logo": "Logo",
+  "navbar": {
+    "demos": "Demos",
+    "hosting": "Hosting",
+    "proHosting": "ProHosting",
+    "domains": "Domains",
+    "needHelp": "Need Help?",
+    "pages": "Pages",
+    "contactUs": "Contact Us",
+    "clientLogin": "client login"
+  }
+}
