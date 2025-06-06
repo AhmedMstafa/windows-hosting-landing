@@ -20,4 +20,5 @@ export enum Routs {
   CLIENT_LOGIN = 'client-login',
   PRICES = 'prices',
   CREATE_ACCOUNT = 'create-account',
+  ORDER_NOW = 'order-now',
 }
