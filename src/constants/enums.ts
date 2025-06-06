@@ -18,4 +18,6 @@ export enum Routs {
   PAGES = 'pages',
   CONTACT_US = 'contact-us',
   CLIENT_LOGIN = 'client-login',
+  PRICES = 'prices',
+  CREATE_ACCOUNT = 'create-account',
 }

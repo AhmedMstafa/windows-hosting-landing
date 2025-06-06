@@ -1,6 +1,6 @@
 import Link from '../link';
 import { Routs } from '@/constants/enums';
-import { logo } from '@/dictionaries/en.json';
+import { logo } from '@/dictionaries/ar.json';
 
 export default function Logo() {
   return (

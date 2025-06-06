@@ -3,7 +3,7 @@
 import Logo from './logo';
 import Language from './language';
 import Link from '../link';
-import { navbar } from '@/dictionaries/en.json';
+import { navbar } from '@/dictionaries/ar.json';
 import { Routs } from '@/constants/enums';
 import { IoMenuSharp, IoCloseSharp } from 'react-icons/io5';
 import { useState } from 'react';
@@ -55,7 +55,7 @@ const Links = [
 export default function Navbar() {
   const [openMenu, setOpenMenu] = useState(false);
   return (
-    <nav className=" nav-container w-full flex justify-between">
+    <nav className="z-50 nav-container w-full flex justify-between">
       <div className="flex items-center w-[168px] justify-between">
         <Logo />
         <Language />

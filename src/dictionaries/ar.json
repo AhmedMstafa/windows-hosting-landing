@@ -1,0 +1,19 @@
+{
+  "logo": "Logo",
+  "navbar": {
+    "demos": "Demos",
+    "hosting": "Hosting",
+    "proHosting": "ProHosting",
+    "domains": "Domains",
+    "needHelp": "Need Help?",
+    "pages": "Pages",
+    "contactUs": "Contact Us",
+    "clientLogin": "client login"
+  },
+  "hero": {
+    "title": "الاستضافات المشتركة",
+    "subTitle": "كلام و وصف للاستضافات المشتركة كلام و وصف للاستضافات المشتركة كلام و وصف للاستضافات  كلام و   المشتركة كلام و وصف للاستضافات المشتركة ",
+    "createAccount": "انشاء حساب",
+    "viewPrices": "عرض الاسعار"
+  }
+}
