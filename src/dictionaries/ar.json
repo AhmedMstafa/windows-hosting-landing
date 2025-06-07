@@ -37,5 +37,179 @@
       "title": "حظر البريد الإلكتروني غير المصرح به",
       "subTitle": "قم بتكوين المجموعات الخاصة بك وإدارتها ونشرها بسرعة في خطوات بسيطة وبدون وقت يُذكر."
     }
+  },
+  "plans": {
+    "title": "اختار الخطط",
+    "planOne": {
+      "title": "P2-HOST",
+      "price": {
+        "number": "90.30",
+        "tag": "د.ل"
+      },
+      "discount": {
+        "content": "تخفيض",
+        "percentage": "%30",
+        "price": {
+          "number": "120",
+          "tag": "د.ل"
+        }
+      },
+        "orderNow": "اطلب الان!",
+        "storage": {
+          "content": "NVMe Storage",
+          "number": "60",
+          "tag": "GB"
+        },
+        "websiteCount": {
+          "content": "Website (s)",
+          "number": "15"
+        },
+        "ram": {
+          "content": "RAM",
+          "number": "4"
+        },
+        "cpu": {
+          "content": "CPU",
+          "number": "3"
+        },
+        "cPanel": {
+          "content": "cPanel",
+          "name": "Control Panel"
+        },
+        "subdomains": {
+          "content": "Unlimited",
+          "name": "Subdomains"
+        },
+        "dataBases": {
+          "content": "Unlimited",
+          "name": "MySQL & SQL Databases"
+        },
+        "email": {
+          "content": "Unlimited",
+          "name": "Email Account"
+        },
+        "ftp": {
+          "content": "Unlimited",
+          "name": "FTP Account"
+        },
+        "dedicatedNameServer": {
+          "content": "Dedicated Name Server(ns1,ns2)"
+        },
+        "comparePackages": "compare packages"
+    },
+    "planTwo": {
+      "title": "P2-HOST",
+      "price": {
+        "number": "90.30",
+        "tag": "د.ل"
+      },
+      "discount": {
+        "content": "تخفيض",
+        "percentage": "%30",
+        "price": {
+          "number": "120",
+          "tag": "د.ل"
+        },
+        "orderNow": "اطلب الان!",
+        "storage": {
+          "content": "NVMe Storage",
+          "number": "60",
+          "tag": "GB"
+        },
+        "websiteCount": {
+          "content": "Website (s)",
+          "number": "15"
+        },
+        "ram": {
+          "content": "RAM",
+          "number": "4"
+        },
+        "cpu": {
+          "content": "CPU",
+          "number": "3"
+        },
+        "cPanel": {
+          "content": "cPanel",
+          "name": "Control Panel"
+        },
+        "subdomains": {
+          "content": "Unlimited",
+          "name": "Subdomains"
+        },
+        "dataBases": {
+          "content": "Unlimited",
+          "name": "MySQL & SQL Databases"
+        },
+        "email": {
+          "content": "Unlimited",
+          "name": "Email Account"
+        },
+        "ftp": {
+          "content": "Unlimited",
+          "name": "FTP Account"
+        },
+        "dedicatedNameServer": {
+          "content": "Dedicated Name Server(ns1,ns2)"
+        },
+        "comparePackages": "compare packages"
+      }
+    },
+    "planThere": {
+      "title": "P2-HOST",
+      "price": {
+        "number": "90.30",
+        "tag": "د.ل"
+      },
+      "discount": {
+        "content": "تخفيض",
+        "percentage": "%30",
+        "price": {
+          "number": "120",
+          "tag": "د.ل"
+        },
+        "orderNow": "اطلب الان!",
+        "storage": {
+          "content": "NVMe Storage",
+          "number": "60",
+          "tag": "GB"
+        },
+        "websiteCount": {
+          "content": "Website (s)",
+          "number": "15"
+        },
+        "ram": {
+          "content": "RAM",
+          "number": "4"
+        },
+        "cpu": {
+          "content": "CPU",
+          "number": "3"
+        },
+        "cPanel": {
+          "content": "cPanel",
+          "name": "Control Panel"
+        },
+        "subdomains": {
+          "content": "Unlimited",
+          "name": "Subdomains"
+        },
+        "dataBases": {
+          "content": "Unlimited",
+          "name": "MySQL & SQL Databases"
+        },
+        "email": {
+          "content": "Unlimited",
+          "name": "Email Account"
+        },
+        "ftp": {
+          "content": "Unlimited",
+          "name": "FTP Account"
+        },
+        "dedicatedNameServer": {
+          "content": "Dedicated Name Server(ns1,ns2)"
+        },
+        "comparePackages": "compare packages"
+      }
+    }
   }
 }
