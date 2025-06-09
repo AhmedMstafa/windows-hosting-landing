@@ -2,7 +2,7 @@ import Accordion, { AccordionItem } from '../accordion';
 import { fqa } from '@/dictionaries/ar.json';
 export default function FQASection() {
   return (
-    <Accordion classes="w-full">
+    <Accordion classes="w-full bg-white">
       {fqa.questions.map((question) => (
         <AccordionItem
           key={question.id}

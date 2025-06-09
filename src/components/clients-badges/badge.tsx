@@ -7,7 +7,7 @@ type badgeProps = {
 
 export default function Badge({ name, badge }: badgeProps) {
   return (
-    <div className="w-[250px] h-[250px] flex flex-col justify-center items-center bg-white">
+    <div className="w-[250px] h-[250px] flex flex-col gap-2 justify-center items-center bg-white">
       <div className="relative w-[164px] h-[164px]">
         <Image src={badge} alt="client badge" fill />
       </div>

@@ -7,7 +7,7 @@ type infoCardProps = {
 
 export default function InfoCard({ name, icon }: infoCardProps) {
   return (
-    <div className="flex flex-col gap-4 justify-center">
+    <div className="flex flex-col gap-4 justify-center bg-white">
       <div className="relative w-[100px] h-[100px]">
         <Image src={icon} alt="fqa card" fill />
       </div>

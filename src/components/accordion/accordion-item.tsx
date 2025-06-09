@@ -23,10 +23,10 @@ export default function AccordionItem({
     <div className={classes}>
       <h4
         onClick={() => toggleItem(id)}
-        className="flex items-center justify-between text-main-color text-[20px] font-normal px-4 py-6"
+        className="flex items-center justify-between gap-1 text-main-color text-[20px] font-normal px-4 py-6"
       >
         {title}
-        <div className="relative w-[24px] h-[24px] cursor-pointer text-main-color ">
+        <div className="relative shrink-0 w-[20px] h-[20px] cursor-pointer text-main-color ">
           {isOpen ? (
             <Image src="/minus.svg" alt="icon" fill />
           ) : (

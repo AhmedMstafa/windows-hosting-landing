@@ -8,7 +8,7 @@ type featureTypes = {
 
 export default function Feature({ image, alt }: featureTypes) {
   return (
-    <div className="flex flex-col gap-4 px-8 justify-center w-[370px] h-[277px] rounded-md shadow-md p-4">
+    <div className="flex flex-col gap-4 px-8 justify-center w-[370px] h-[277px] rounded-md shadow-md p-4 bg-white">
       <div className="w-[60px] h-[91px] mb-4">
         <Image src={image} alt={alt} width={100} height={100} />
       </div>

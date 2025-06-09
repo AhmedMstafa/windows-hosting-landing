@@ -6,12 +6,13 @@ import Hero from '@/components/hero';
 import Hosting from '@/components/hosting';
 import Pricing from '@/components/pricing';
 import SupportInformation from '@/components/support-information';
+import MainWrapper from '@/components/main-wrapper';
 
 export default function Home() {
   return (
     <>
       <Header />
-      <main>
+      <MainWrapper>
         <Hero />
         <Hosting />
         <Pricing />
@@ -19,7 +20,7 @@ export default function Home() {
         <ChooseUs />
         <ClientsBadges />
         <FQA />
-      </main>
+      </MainWrapper>
     </>
   );
 }
