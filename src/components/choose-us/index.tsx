@@ -2,7 +2,7 @@ import { chooseUs } from '@/dictionaries/ar.json';
 import Feature from './feature';
 export default function ChooseUs() {
   return (
-    <section className="h-screen pb-20 bg-[url('/choose-us.svg')] bg-no-repeat bg-contain bg-top pt-30">
+    <section className="bg-[url('/choose-us.svg')] bg-no-repeat bg-contain bg-top pt-30">
       <div className="container">
         <h4 className="text-main-color font-semibold text-[40px] mb-4 text-center">
           {chooseUs.title}
