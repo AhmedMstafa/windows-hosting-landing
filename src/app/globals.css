@@ -8,6 +8,7 @@ body {
 @theme {
   --color-main-color: #092346;
   --color-secondary-color: #2b1f51;
+  --color-section-color: ##fcfcfc;
 }
 
 @layer base {

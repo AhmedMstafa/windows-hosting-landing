@@ -5,7 +5,7 @@ import Service from './service';
 
 export default function SupportInformation() {
   return (
-    <section className="pt-40 ">
+    <section className="pt-40 pb-20">
       <div className="container text-center flex flex-col gap-8">
         <h4 className="text-main-color font-semibold text-[40px] mb-4">
           {supportInformation.title}

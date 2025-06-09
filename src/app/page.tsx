@@ -1,3 +1,4 @@
+import ChooseUs from '@/components/choose-us';
 import Header from '@/components/header';
 import Hero from '@/components/hero';
 import Hosting from '@/components/hosting';
@@ -13,6 +14,7 @@ export default function Home() {
         <Hosting />
         <Pricing />
         <SupportInformation />
+        <ChooseUs />
       </main>
     </>
   );
