@@ -29,7 +29,7 @@ export default async function Hero() {
             <Link href={`/${Routs.PRICES}`}>{hero.viewPrices}</Link>
           </button>
         </div>
-        <div className="relative -z-50 flex flex-col items-center mt-30 sm:mt-15 scale-70 sm:scale-80 md:scale-90 lg:scale-100">
+        <div className="relative -z-50 flex flex-col items-center mt-15 sm:mt-30 scale-50 sm:scale-80 md:scale-90 lg:scale-100">
           <div className="flex justify-around w-full  ">
             <SmBox />
             <SmBox />
