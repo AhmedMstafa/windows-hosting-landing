@@ -1,6 +1,8 @@
 import type { Metadata } from 'next';
-import { Cairo } from 'next/font/google';
 import './globals.css';
+import { Directions, Languages } from '@/constants/enums';
+import { Cairo } from 'next/font/google';
+import { Locale } from '@/i18n.config';
 
 const cairo = Cairo({
   variable: '--font-cairo',
@@ -14,13 +16,23 @@ export const metadata: Metadata = {
     'احصل على استضافة ويندوز موثوقة وآمنة ضمن خطط استضافة مشتركة مميزة تناسب جميع احتياجاتك. أداء قوي، دعم فني متواصل، وأسعار منافسة.',
 };
 
-export default function RootLayout({
+export async function generateStaticParams() {
+  return [{ locale: Languages.ARABIC }, { locale: Languages.ENGLISH }];
+}
+
+export default async function RootLayout({
+  params,
   children,
 }: Readonly<{
   children: React.ReactNode;
+  params: Promise<{ locale: Locale }>;
 }>) {
+  const locale = (await params).locale;
   return (
-    <html lang="en" dir="rtl">
+    <html
+      lang={locale}
+      dir={locale === Languages.ARABIC ? Directions.RTL : Directions.LTR}
+    >
       <body className={cairo.className}>{children}</body>
     </html>
   );

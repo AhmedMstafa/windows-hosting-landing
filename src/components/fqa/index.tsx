@@ -1,8 +1,11 @@
 import FQASection from './fqa-section';
-import { fqa } from '@/dictionaries/ar.json';
 import InfoCard from './infoCard';
+import { getCurrentLocale } from '@/lib/getCurrentLocale';
+import getTrans from '@/lib/translation';
 
-export default function FQA() {
+export default async function FQA() {
+  const locale = await getCurrentLocale();
+  const { fqa } = await getTrans(locale);
   return (
     <section className="pt-40 pb-40">
       <div className="container flex items-center md:gap-16">

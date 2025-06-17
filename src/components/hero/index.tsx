@@ -1,10 +1,15 @@
-import { hero } from '@/dictionaries/ar.json';
 import { Routs } from '@/constants/enums';
 import Link from '../link';
 import Box from './box';
 import SmBox from './sm-box';
+import { getCurrentLocale } from '@/lib/getCurrentLocale';
+import getTrans from '@/lib/translation';
 
-export default function Hero() {
+export default async function Hero() {
+  const locale = await getCurrentLocale();
+
+  const { hero } = await getTrans(locale);
+
   return (
     <section className="overflow-hidden h-[calc(100vh-85px)]">
       <div className="text-white bg-main-color pt-[85px] h-[90%] scale-110 rounded-b-full shadow-[0_10px_0_20px_rgba(200,206,222,1)]">

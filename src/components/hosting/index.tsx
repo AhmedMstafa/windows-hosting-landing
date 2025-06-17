@@ -1,9 +1,12 @@
-import { hosting } from '@/dictionaries/ar.json';
 import Link from '../link';
 import { Routs } from '@/constants/enums';
 import Feature from './feature';
+import { getCurrentLocale } from '@/lib/getCurrentLocale';
+import getTrans from '@/lib/translation';
 
-export default function Hosting() {
+export default async function Hosting() {
+  const locale = await getCurrentLocale();
+  const { hosting } = await getTrans(locale);
   return (
     <section className="py-10">
       <div className="container">

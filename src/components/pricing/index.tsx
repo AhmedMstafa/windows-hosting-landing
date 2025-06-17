@@ -1,7 +1,10 @@
-import { plans } from '@/dictionaries/ar.json';
+import getTrans from '@/lib/translation';
 import Plan from './plan';
+import { getCurrentLocale } from '@/lib/getCurrentLocale';
 
-export default function Pricing() {
+export default async function Pricing() {
+  const locale = await getCurrentLocale();
+  const { plans } = await getTrans(locale);
   return (
     <section className="bg-[url('/pricing-bg.svg')] bg-no-repeat bg-contain bg-top pt-40">
       <h4 className="text-main-color text-[64px] text-center mb-8">

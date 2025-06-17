@@ -1,7 +1,10 @@
-import { clientsBadges } from '@/dictionaries/ar.json';
 import Badge from './badge';
+import { getCurrentLocale } from '@/lib/getCurrentLocale';
+import getTrans from '@/lib/translation';
 
-export default function ClientsBadges() {
+export default async function ClientsBadges() {
+  const locale = await getCurrentLocale();
+  const { clientsBadges } = await getTrans(locale);
   return (
     <section className="pt-40">
       <div className="container">

@@ -1,0 +1,233 @@
+{
+  "logo": "Logo",
+  "navbar": {
+    "demos": "Demos",
+    "hosting": "Hosting",
+    "proHosting": "Pro Hosting",
+    "domains": "Domains",
+    "needHelp": "Need Help?",
+    "pages": "Pages",
+    "contactUs": "Contact Us",
+    "clientLogin": "Client Login"
+  },
+  "hero": {
+    "title": "Shared Hosting",
+    "subTitle": "Description and summary for shared hosting repeated here to match the original Arabic placeholder.",
+    "createAccount": "Create Account",
+    "viewPrices": "View Prices"
+  },
+  "hosting": {
+    "title": {
+      "firstSlice": "Clusters",
+      "secondSlice": " Kubernetes ",
+      "thirdSlice": "in just minutes"
+    },
+    "subTitle": "Stop wasting time managing Kubernetes clusters. With our fully managed Kubernetes Engine, you can easily launch, manage, and optimize your containerized application resources in minutes instead of days.",
+    "orderNow": "Order Now!",
+    "header": "Get started faster and accelerate your business growth",
+    "featureOne": {
+      "title": "Block unauthorized email",
+      "subTitle": "Configure, manage, and deploy your clusters quickly in simple steps with minimal time."
+    },
+    "featureTow": {
+      "title": "Block unauthorized email",
+      "subTitle": "Configure, manage, and deploy your clusters quickly in simple steps with minimal time."
+    },
+    "featureThree": {
+      "title": "Block unauthorized email",
+      "subTitle": "Configure, manage, and deploy your clusters quickly in simple steps with minimal time."
+    }
+  },
+  "plans": {
+    "title": "Choose Plans",
+    "planOne": {
+      "title": "P2-HOST",
+      "price": {
+        "number": "90.30",
+        "tag": "LYD"
+      },
+      "discount": {
+        "content": "Discount",
+        "percentage": "30%",
+        "price": {
+          "number": "120",
+          "tag": "LYD"
+        }
+      },
+      "orderNow": "Order Now!",
+      "storage": {
+        "content": "NVMe Storage",
+        "number": "60",
+        "tag": "GB"
+      },
+      "websiteCount": {
+        "content": "Website(s)",
+        "number": "15"
+      },
+      "ram": {
+        "content": "RAM",
+        "number": "4"
+      },
+      "cpu": {
+        "content": "CPU",
+        "number": "3"
+      },
+      "cPanel": {
+        "content": "cPanel",
+        "name": "Control Panel"
+      },
+      "subdomains": {
+        "content": "Unlimited",
+        "name": "Subdomains"
+      },
+      "dataBases": {
+        "content": "Unlimited",
+        "name": "MySQL & SQL Databases"
+      },
+      "email": {
+        "content": "Unlimited",
+        "name": "Email Account"
+      },
+      "ftp": {
+        "content": "Unlimited",
+        "name": "FTP Account"
+      },
+      "dedicatedNameServer": {
+        "content": "Dedicated Name Server(ns1,ns2)"
+      },
+      "comparePackages": "Compare Packages"
+    }
+  },
+  "supportInformation": {
+    "title": "Not sure where to start? Don't worry, we're here to help",
+    "subTitle": "As an official provider of Microsoft cloud solutions, Spider Libya is ready to help your organization adopt Microsoft 365 and fully integrate it with your workflow.",
+    "description": "We’re proud to have helped many companies transition to Microsoft 365 successfully – and we’re happy to help you too!",
+    "orderNow": "Order Now!",
+    "services": [
+      {
+        "key": "settingsShanges",
+        "label": "Settings Changes"
+      },
+      {
+        "key": "training",
+        "label": "Training"
+      },
+      {
+        "key": "technicalSupport",
+        "label": "Technical Support"
+      },
+      {
+        "key": "adjustSettingsAndPersonalization",
+        "label": "Adjust Settings and Personalization"
+      },
+      {
+        "key": "dataAndUserMigration",
+        "label": "Data and User Migration"
+      },
+      {
+        "key": "sharePointOnlineMigration",
+        "label": "SharePoint Online Migration"
+      }
+    ]
+  },
+  "chooseUs": {
+    "title": "Why Choose",
+    "features": [
+      {
+        "icon": "/feat-1.svg",
+        "title": "Improve Website Performance via CDN",
+        "description": "Our CDN accelerates page load speeds and reduces server load by 80% on average to enhance your site's performance."
+      },
+      {
+        "icon": "/feat-2.svg",
+        "title": "Mitigate DDoS Attacks",
+        "description": "DDoS attacks can halt your business. We block DDoS attacks on layers 3, 4, and 7 while maintaining bandwidth."
+      },
+      {
+        "icon": "/feat-3.svg",
+        "title": "Protection Against Hacking and Malware",
+        "description": "Protect your site from malware, prevent hacking attempts, Zero-Day exploit attacks, and Brute Force attacks."
+      },
+      {
+        "icon": "/feat-4.svg",
+        "title": "Improve Website Performance via CDN",
+        "description": "Our CDN accelerates page load speeds and reduces server load by 80% on average to enhance your site's performance."
+      },
+      {
+        "icon": "/feat-5.svg",
+        "title": "Mitigate DDoS Attacks",
+        "description": "DDoS attacks can halt your business. We block DDoS attacks on layers 3, 4, and 7 while maintaining bandwidth."
+      },
+      {
+        "icon": "/feat-6.svg",
+        "title": "Protection Against Hacking and Malware",
+        "description": "Protect your site from malware, prevent hacking attempts, Zero-Day exploit attacks, and Brute Force attacks."
+      }
+    ]
+  },
+  "clientsBadges": {
+    "title": "Trusted by Our Clients",
+    "clients": [
+      {
+        "name": "Information and Documentation Center",
+        "badge": "/badg-1.svg"
+      },
+      {
+        "name": "Financial Releases Committee",
+        "badge": "/badg-2.svg"
+      },
+      {
+        "name": "Social Security Fund",
+        "badge": "/badg-3.svg"
+      },
+      {
+        "name": "Social Security Fund",
+        "badge": "/badg-4.svg"
+      },
+      {
+        "name": "Commercial Registry Office",
+        "badge": "/badg-5.svg"
+      },
+      {
+        "name": "Dhat Al-Sawari Pharmacy",
+        "badge": "/badg-6.svg"
+      }
+    ]
+  },
+  "fqa": {
+    "cards": [
+      {
+        "id": "card-1",
+        "name": "Frequently Asked Questions",
+        "icon": "/fqa-1.svg"
+      },
+      {
+        "id": "card-2",
+        "name": "Help Center",
+        "icon": "/fqa-2.svg"
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "question": "What is a Virtual Private Server (VPS)?",
+        "answer": "A VPS is a server split into completely separate hosting environments. One of those environments is fully dedicated to you, meaning no shared RAM or CPU, and you're less likely to be affected by other users."
+      },
+      {
+        "id": "q2",
+        "question": "When should I use VPS instead of shared hosting?",
+        "answer": "A VPS is a server split into completely separate hosting environments. One of those environments is fully dedicated to you, meaning no shared RAM or CPU, and you're less likely to be affected by other users."
+      },
+      {
+        "id": "q3",
+        "question": "What is the difference between a VPS and a dedicated server?",
+        "answer": "A VPS is a server split into completely separate hosting environments. One of those environments is fully dedicated to you, meaning no shared RAM or CPU, and you're less likely to be affected by other users."
+      },
+      {
+        "id": "q4",
+        "question": "Which locations are available for VPS hosting?",
+        "answer": "A VPS is a server split into completely separate hosting environments. One of those environments is fully dedicated to you, meaning no shared RAM or CPU, and you're less likely to be affected by other users."
+      }
+    ]
+  }
+}

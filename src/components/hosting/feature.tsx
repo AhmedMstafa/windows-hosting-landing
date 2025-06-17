@@ -1,12 +1,15 @@
 import Image from 'next/image';
-import { hosting } from '@/dictionaries/ar.json';
+import { getCurrentLocale } from '@/lib/getCurrentLocale';
+import getTrans from '@/lib/translation';
 
 type featureTypes = {
   image: string;
   alt: string;
 };
 
-export default function Feature({ image, alt }: featureTypes) {
+export default async function Feature({ image, alt }: featureTypes) {
+  const locale = await getCurrentLocale();
+  const { hosting } = await getTrans(locale);
   return (
     <div className="flex flex-col gap-4 px-8 justify-center w-[370px] h-[277px] rounded-md shadow-md p-4 bg-white">
       <div className="w-[60px] h-[91px] mb-4">

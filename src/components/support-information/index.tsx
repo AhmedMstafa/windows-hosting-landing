@@ -1,9 +1,12 @@
 import { Routs } from '@/constants/enums';
-import { supportInformation } from '@/dictionaries/ar.json';
 import Link from 'next/link';
 import Service from './service';
+import { getCurrentLocale } from '@/lib/getCurrentLocale';
+import getTrans from '@/lib/translation';
 
-export default function SupportInformation() {
+export default async function SupportInformation() {
+  const locale = await getCurrentLocale();
+  const { supportInformation } = await getTrans(locale);
   return (
     <section className="pt-40 pb-20">
       <div className="container text-center flex flex-col gap-8">

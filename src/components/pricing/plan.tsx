@@ -1,12 +1,15 @@
-import { plans } from '@/dictionaries/ar.json';
 import Link from '../link';
 import { Routs } from '@/constants/enums';
+import { getCurrentLocale } from '@/lib/getCurrentLocale';
+import getTrans from '@/lib/translation';
 
 type PlanTypes = {
   color: string;
 };
 
-export default function Plan({ color }: PlanTypes) {
+export default async function Plan({ color }: PlanTypes) {
+  const locale = await getCurrentLocale();
+  const { plans } = await getTrans(locale);
   return (
     <div
       className="relative w-[310px] pt-[40px] rounded-md overflow-hidden shadow-md bg-white"

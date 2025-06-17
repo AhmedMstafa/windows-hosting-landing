@@ -1,6 +1,10 @@
-import { chooseUs } from '@/dictionaries/ar.json';
 import Feature from './feature';
-export default function ChooseUs() {
+import { getCurrentLocale } from '@/lib/getCurrentLocale';
+import getTrans from '@/lib/translation';
+
+export default async function ChooseUs() {
+  const locale = await getCurrentLocale();
+  const { chooseUs } = await getTrans(locale);
   return (
     <section className="bg-[url('/choose-us.svg')] bg-no-repeat bg-contain bg-top pt-30">
       <div className="container">

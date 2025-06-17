@@ -1,6 +1,10 @@
+import { getCurrentLocale } from '@/lib/getCurrentLocale';
 import Accordion, { AccordionItem } from '../accordion';
-import { fqa } from '@/dictionaries/ar.json';
-export default function FQASection() {
+import getTrans from '@/lib/translation';
+
+export default async function FQASection() {
+  const locale = await getCurrentLocale();
+  const { fqa } = await getTrans(locale);
   return (
     <Accordion classes="w-full bg-white">
       {fqa.questions.map((question) => (
